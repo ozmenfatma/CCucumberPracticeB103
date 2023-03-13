@@ -19,4 +19,7 @@ public class S_Homework4 {
 
     @FindBy(xpath ="//*[@id='gdpr-consent-notice']")
     public WebElement iframe;
+
+    @FindBy (xpath = "//table[@class='dataTable']//tbody//tr//td[3]")
+    public List<WebElement> preclos;
 }

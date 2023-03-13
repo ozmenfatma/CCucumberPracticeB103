@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         monochrome = true,//raporlarin consolda okunakli sekilde cikmasi icin
         features = "src/test/resources/features", // features'ın yolunu belirmemiz gerekir
         glue = "stepdefinitions",// Kodlarımızı yazdığımız yeri belirtiriz
-        tags = "@homework4", //Çalıştırmak istediğimiz seneryoya verdiğimiz tag'i belirtiriz
+        tags = "@homework5", //Çalıştırmak istediğimiz seneryoya verdiğimiz tag'i belirtiriz
         dryRun = false // Seneryonun adımlarını kontrol eder ve çalıştığını görürüz
 )
 

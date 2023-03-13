@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="8.668" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Guru_Web_Tables" name="TC_01_kullanici_liste_alabilmeli" time="8.572">
+<testsuite name="Cucumber" time="11.037" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Guru_Web_Tables" name="TC_01_kullanici_liste_alabilmeli" time="10.894">
 <system-out><![CDATA[
 Given Kullanıcı web sayfasına "http://demo.guru99.com/test/web-table-element.php" gider.passed
 Then Company listesini consola yazdırır.....................................passed
-And kullanici DCBBankin "DCB Bank" listede olduğunu test eder...............passed
+And "IDFC Bank" Prev.Close degerini yazdirir................................passed
 And kullanici sayfayi kapatir...............................................passed
 ]]></system-out>
 </testcase>
